@@ -234,7 +234,7 @@ main() {
     rm -rf /run/NetworkManager/
 
     rm -f /run/udev/rules.d/80-coreos-boot-disk.rules
-    rm -f /dev/disk/by-id/coreos-boot-disk
+    #rm -f /dev/disk/by-id/coreos-boot-disk
 }
 
 main
